@@ -1,22 +1,22 @@
 class Posteci < Formula
   desc "Run HTTP requests, test plans and load tests written in .stamp files"
   homepage "https://post.samalstudios.com"
-  version "1.1.0"
+  version "1.2.0"
   license :cannot_represent
 
   on_macos do
-    url "https://github.com/samalstudios/posteci/releases/download/cli-1.1.0/posteci-macos-universal.tar.gz"
-    sha256 "953ee6036b403bf45d1bb48a261128d36f85f44762984e7b9204ce5a0f20453b"
+    url "https://github.com/samalstudios/posteci/releases/download/cli-1.2.0/posteci-macos-universal.tar.gz"
+    sha256 "916aef0bd87d2d2914a299180fd551773262d2bbb5b57ec66cfda9f8f991a081"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/samalstudios/posteci/releases/download/cli-1.1.0/posteci-linux-x86_64.tar.gz"
-      sha256 "e47869bbe59edf753d55f640b5700c378ffbbe2722d8c5eac90619c33cbe4632"
+      url "https://github.com/samalstudios/posteci/releases/download/cli-1.2.0/posteci-linux-x86_64.tar.gz"
+      sha256 "ccea9104b4abb904fac63732ccf257a0bc2c555864e8e28f64a719179cf27117"
     end
     on_arm do
-      url "https://github.com/samalstudios/posteci/releases/download/cli-1.1.0/posteci-linux-arm64.tar.gz"
-      sha256 "d5b5ccb60e620f48ab0d64b3b8a5846b7d6ac72de9c748d8c6bda8be1b9220a0"
+      url "https://github.com/samalstudios/posteci/releases/download/cli-1.2.0/posteci-linux-arm64.tar.gz"
+      sha256 "8ee67296a4d4bc079e977a1f6ba9176f1838ee124fdb8c69c96c66b182986c73"
     end
   end
 
